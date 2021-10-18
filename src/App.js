@@ -3,7 +3,14 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <div className="App">salut! 👋</div>;
+    return (
+      <div className="App">
+        salut!{" "}
+        <span role="img" aria-label="waving">
+          👋
+        </span>
+      </div>
+    );
   }
 }
 
