@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { Grid } from "@material-ui/core";
 import Link from "@material-ui/core/Link";
