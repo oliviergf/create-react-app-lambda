@@ -15,3 +15,13 @@
     transform: rotate(360deg);
   }
 }
+
+.wavingHand {
+  width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  .wavingHand {
+    width: 65%;
+  }
+}
